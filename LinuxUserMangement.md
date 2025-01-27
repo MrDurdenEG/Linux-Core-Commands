@@ -83,11 +83,11 @@ Others: All other users who are not the owner or part of the group.
 
 ---
 
-Use the `ls -l` command to view file permissions
+# Use the `ls -l` command to view file permissions
 
--rw-r--r-- 1 user group 4096 Oct 10 12:34 file.txt
+`-rw-r--r-- 1 user group 4096 Oct 10 12:34 file.txt`
 
-drwxr-xr-x 2 user group 4096 Oct 10 12:34 directory
+`drwxr-xr-x 2 user group 4096 Oct 10 12:34 directory `
 
 **The first character indicates the file type (- for regular files, d for directories).**
 
@@ -103,8 +103,8 @@ Others: Read (r--)
 
 ---
 
-to change the Permissions
-sudo chmod [who][operator][permissions] file
+## to change the Permissions
+`sudo chmod [who][operator][permissions] file`
 
 # Who:
 - `u`: Owner
