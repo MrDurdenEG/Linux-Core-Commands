@@ -93,8 +93,8 @@
 
 ---
 
-## isof: Display List of All Open Files
-- `isof -i`: Display files with internet addresses (e.g., temp files).
+## lsof: Display List of All Open Files
+- `lsof -i`: Display files with internet addresses (e.g., temp files).
 
 ---
 
