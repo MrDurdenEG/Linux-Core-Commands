@@ -62,8 +62,11 @@
 There are three types of permissions:
 
 Read (r): Allows viewing the contents of a file or listing the contents of a directory.
+
 Write (w): Allows modifying a file or adding/removing files in a directory.
+
 Execute (x): Allows executing a file (if it's a program or script) or accessing a directory
+
 
 ---
 
@@ -72,8 +75,11 @@ Execute (x): Allows executing a file (if it's a program or script) or accessing 
 Permissions are assigned to three groups:
 
 Owner: The user who owns the file or directory.
+
 Group: The group that owns the file or directory.
+
 Others: All other users who are not the owner or part of the group.
+
 
 ---
 
