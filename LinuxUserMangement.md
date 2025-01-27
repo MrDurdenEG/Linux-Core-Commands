@@ -55,7 +55,7 @@
 
 -------
 
-### Linux File Permissions Guide 
+# Linux File Permissions Guide 
 
 ## 1. Permission Types
 
@@ -93,7 +93,7 @@ Others: All other users who are not the owner or part of the group.
 
 The next 9 characters represent permissions for the owner, group, and others (in that order).
 
--rw-r--r-- means:
+**`-rw-r--r--` means:**
 
 Owner: Read and Write (rw-)
 
@@ -122,8 +122,8 @@ Others: Read (r--)
 - `w`: Write
 - `x`: Execute
 
-#Example:
+# Example:
 
-sudo chmod u+rw file.txt     
+`sudo chmod u+rw file.txt`     
 
 **Add read and write for the owner**
