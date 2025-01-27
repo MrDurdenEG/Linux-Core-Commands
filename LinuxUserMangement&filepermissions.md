@@ -128,8 +128,9 @@ Others: Read (r--)
 
 **Add read and write for the owner**
 
-## We can also edit file permissions using the `chmod` command. For example:  
+## We can also edit file permissions using the `chmod` command.
 
+For example:  
 ### **`chmod 777`**  
 This corresponds to a permission level for:  
 - **Owner** (first digit)  
@@ -173,4 +174,3 @@ Each digit is the sum of:
    - **Group, Others**: Read-only.  
    - **Use Case**: Protects the file's content while allowing others to view it.  
 
-These examples provide a flexible way to manage file access and security.
