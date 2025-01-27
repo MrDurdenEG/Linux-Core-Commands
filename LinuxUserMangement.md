@@ -59,7 +59,7 @@
 
 ## 1. Permission Types
 
-There are three types of permissions:
+### There are three types of permissions:
 
 Read (r): Allows viewing the contents of a file or listing the contents of a directory.
 
@@ -72,7 +72,7 @@ Execute (x): Allows executing a file (if it's a program or script) or accessing 
 
 ## 2. Permission Groups
 
-Permissions are assigned to three groups:
+### Permissions are assigned to three groups:
 
 Owner: The user who owns the file or directory.
 
@@ -83,7 +83,7 @@ Others: All other users who are not the owner or part of the group.
 
 ---
 
-# Use the `ls -l` command to view file permissions
+#### Use the `ls -l` command to view file permissions
 
 `-rw-r--r-- 1 user group 4096 Oct 10 12:34 file.txt`
 
@@ -103,26 +103,26 @@ Others: Read (r--)
 
 ---
 
-## to change the Permissions
+### to change the Permissions
 `sudo chmod [who][operator][permissions] file`
 
-# Who:
+#### Who:
 - `u`: Owner
 - `g`: Group
 - `o`: Others
 - `a`: All (default)
 
-# Operator:
+#### Operator:
 - `+`: Add permission
 - `-`: Remove permission
 - `=`: Set permission explicitly
 
-# Permissions:
+#### Permissions:
 - `r`: Read
 - `w`: Write
 - `x`: Execute
 
-# Example:
+##### Example:
 
 `sudo chmod u+rw file.txt`     
 
