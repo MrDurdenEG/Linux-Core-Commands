@@ -63,7 +63,8 @@ There are three types of permissions:
 
 Read (r): Allows viewing the contents of a file or listing the contents of a directory.
 Write (w): Allows modifying a file or adding/removing files in a directory.
-Execute (x): Allows executing a file (if it's a program or script) or accessing a directory.
+Execute (x): Allows executing a file (if it's a program or script) or accessing a directory
+
 ---
 
 ## 2. Permission Groups
