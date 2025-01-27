@@ -127,3 +127,50 @@ Others: Read (r--)
 `sudo chmod u+rw file.txt`     
 
 **Add read and write for the owner**
+
+## We can also edit file permissions using the `chmod` command. For example:  
+
+### **`chmod 777`**  
+This corresponds to a permission level for:  
+- **Owner** (first digit)  
+- **Group** (second digit)  
+- **Others** (third digit)  
+
+Each digit is the sum of:  
+- **4** = Read (`r`)  
+- **2** = Write (`w`)  
+- **1** = Execute (`x`)  
+
+#### Examples of Permissions:  
+- **`7`** = Read + Write + Execute (4 + 2 + 1)  
+- **`5`** = Read + Execute (4 + 1)  
+- **`0`** = No permissions  
+
+### Common Examples of `chmod` Commands:
+
+1. **`chmod 777 filename`**  
+   - **Owner, Group, Others**: Full permissions (Read + Write + Execute).  
+   - **Use Case**: Makes the file accessible and modifiable by everyone.  
+
+2. **`chmod 700 filename`**  
+   - **Owner**: Full permissions (Read + Write + Execute).  
+   - **Group, Others**: No permissions.  
+   - **Use Case**: Protects files for the owner's exclusive access.  
+
+3. **`chmod 764 filename`**  
+   - **Owner**: Full permissions (Read + Write + Execute).  
+   - **Group**: Read + Write.  
+   - **Others**: Read-only.  
+   - **Use Case**: Collaborative editing for group members, read-only for others.  
+
+4. **`chmod 755 filename`**  
+   - **Owner**: Full permissions (Read + Write + Execute).  
+   - **Group, Others**: Read + Execute.  
+   - **Use Case**: For scripts/programs—owner can modify, others can execute.  
+
+5. **`chmod 644 filename`**  
+   - **Owner**: Read + Write.  
+   - **Group, Others**: Read-only.  
+   - **Use Case**: Protects the file's content while allowing others to view it.  
+
+These examples provide a flexible way to manage file access and security.
