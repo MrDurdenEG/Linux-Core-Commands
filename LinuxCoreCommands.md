@@ -42,6 +42,10 @@
 
 ---
 
+## touch: create a file
+- `touch [file1.txt]`: Make A File called `[file1.txt]`.  
+---
+
 ## rmdir: Remove Empty Directory
 - `rmdir [dir]`
 
