@@ -86,6 +86,7 @@ Others: All other users who are not the owner or part of the group.
 Use the `ls -l` command to view file permissions
 
 -rw-r--r-- 1 user group 4096 Oct 10 12:34 file.txt
+
 drwxr-xr-x 2 user group 4096 Oct 10 12:34 directory
 
 **The first character indicates the file type (- for regular files, d for directories).**
@@ -93,9 +94,13 @@ drwxr-xr-x 2 user group 4096 Oct 10 12:34 directory
 The next 9 characters represent permissions for the owner, group, and others (in that order).
 
 -rw-r--r-- means:
+
 Owner: Read and Write (rw-)
+
 Group: Read (r--)
+
 Others: Read (r--)
+
 ---
 
 to change the Permissions
