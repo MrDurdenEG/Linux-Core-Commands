@@ -6,29 +6,10 @@ This repository contains a comprehensive guide to core Linux commands, including
 
 ## Commands Covered
 
-- **pwd**: Print the current working directory.
-- **ls**: List files and directories with various options.
-- **cd**: Change the current directory.
-- **cp**: Copy files and directories.
-- **mv**: Move or rename files.
-- **rmdir**: Remove empty directories.
-- **mkdir**: Create directories.
-- **cat**: Print file content or concatenate files.
-- **grep**: Search text patterns in files.
-- **head**/**tail**: Display file content (first/last lines).
-- **less**: View file content one screen at a time.
-- **ps aux**: List running processes.
-- **lsof**: Display open files.
-- **netstat**: Network statistics and connections.
-- **ifconfig**: View network interfaces.
-- **sort**/**uniq**: Sort and remove duplicates in text.
-- **stat**: Get detailed file information.
-- **ping**: Test network connectivity.
-- **find**: Search for files or directories.
-- **nano**: Lightweight text editor.
-- **ln**: Create hard or soft links.
-- **kill**: Terminate processes.
-- ... and many more!
+- **Core Commands**: Essential commands for navigating and managing files and directories.
+- **User Management**: Creating, modifying, and managing users and groups.
+- **SU and SUDO**: Switching users and running commands with administrative privileges.
+- **File Permissions**: Understanding and modifying file permissions for security and access control.
 
 ---
 
@@ -36,7 +17,3 @@ This repository contains a comprehensive guide to core Linux commands, including
 
 All commands listed in this guide are formatted with examples and notes. Text enclosed in square brackets `[ ]` indicates placeholders that you can replace with your specific values, such as file names, directories, or options.
 
-Example:
-```bash
-ls [DIR]       # Replace [DIR] with the path you want to list.
-grep [pattern] [file]  # Search for [pattern] in [file].
