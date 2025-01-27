@@ -89,6 +89,7 @@ Use the `ls -l` command to view file permissions
 drwxr-xr-x 2 user group 4096 Oct 10 12:34 directory
 
 **The first character indicates the file type (- for regular files, d for directories).**
+
 The next 9 characters represent permissions for the owner, group, and others (in that order).
 
 -rw-r--r-- means:
@@ -116,5 +117,8 @@ sudo chmod [who][operator][permissions] file
 - `w`: Write
 - `x`: Execute
 
-sudo chmod u+rw file.txt         
-# Add read and write for the owner
+#Example:
+
+sudo chmod u+rw file.txt     
+
+**Add read and write for the owner**
